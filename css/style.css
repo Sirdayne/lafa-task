@@ -1,0 +1,161 @@
+@media screen and (max-width: 1400px) {
+  nav {
+    font-size: 10px !important; } }
+@media screen and (max-width: 1000px) {
+  #header {
+    height: 500px !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: stretch !important; }
+    #header .govern, #header .title-head {
+      width: 100% !important;
+      flex-direction: row !important;
+      justify-content: center !important;
+      align-items: stretch !important; }
+    #header .search {
+      width: 100% !important;
+      flex-direction: column !important; }
+      #header .search form input {
+        width: 250px !important; }
+
+  nav {
+    height: 440px !important;
+    width: 100%;
+    font-size: 14px !important;
+    background: #1e6037; }
+    nav .nav-inner {
+      height: 10% !important;
+      width: 90%;
+      margin-left: 5%;
+      display: inline-flex !important;
+      flex-direction: column !important;
+      justify-content: flex-start !important;
+      align-items: center !important; } }
+body {
+  font-family: Helvetica, sans-serif;
+  background: rgba(55, 55, 55, 0.5); }
+  body #main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 90vw;
+    left: 5vw;
+    min-height: 100vh;
+    background: white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); }
+    body #main-container #header {
+      display: flex;
+      height: 150px;
+      width: 100%; }
+      body #main-container #header .govern {
+        display: flex;
+        width: 33.33%; }
+        body #main-container #header .govern .corner-pic {
+          height: 150px;
+          width: 150px;
+          background: url(../img/corner-pic.png) center center no-repeat; }
+        body #main-container #header .govern .gov-head {
+          padding: 5px 0 0 5px;
+          height: 100%;
+          width: 200px;
+          font-size: 16px; }
+          body #main-container #header .govern .gov-head h1 {
+            margin-top: 15px; }
+          body #main-container #header .govern .gov-head h2 {
+            font-weight: bold;
+            margin-top: 5px; }
+      body #main-container #header .title-head {
+        width: 33.33%;
+        text-align: center; }
+        body #main-container #header .title-head h1 {
+          margin-top: 35px;
+          color: #176e3b;
+          font-size: 55px;
+          font-weight: bold;
+          letter-spacing: 7px; }
+        body #main-container #header .title-head h2 {
+          margin-top: 10px;
+          font-size: 15px;
+          font-weight: 300; }
+      body #main-container #header .search {
+        width: 33.33%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        body #main-container #header .search form {
+          margin-top: 35px; }
+          body #main-container #header .search form input {
+            height: 45px;
+            width: 300px; }
+        body #main-container #header .search .exchange {
+          display: flex;
+          margin-top: 15px;
+          font-weight: 400; }
+          body #main-container #header .search .exchange h4 {
+            font-size: 14px;
+            margin-left: 12px; }
+          body #main-container #header .search .exchange p {
+            font-size: 14px; }
+          body #main-container #header .search .exchange .search-1, body #main-container #header .search .exchange .search-2, body #main-container #header .search .exchange .search-3 {
+            height: 15px;
+            width: 15px;
+            background: url(../img/search-1.png) center center no-repeat; }
+          body #main-container #header .search .exchange .search-2 {
+            background: url(../img/search-2.png) center center no-repeat; }
+          body #main-container #header .search .exchange .search-3 {
+            background: url(../img/search-3.png) center center no-repeat; }
+    body #main-container nav {
+      height: 40px;
+      width: 100%;
+      font-size: 16px;
+      background: #1e6037; }
+      body #main-container nav .nav-inner {
+        height: 100%;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start; }
+        body #main-container nav .nav-inner .nav-sec {
+          color: white;
+          font-weight: 600;
+          padding: 11px; }
+          body #main-container nav .nav-inner .nav-sec:hover {
+            cursor: pointer;
+            color: black;
+            background: white; }
+          body #main-container nav .nav-inner .nav-sec:active {
+            color: black;
+            background: white; }
+        body #main-container nav .nav-inner .nav-logo {
+          height: 40px;
+          width: 37px;
+          background: url(../img/nav-logo.png) center center no-repeat; }
+    body #main-container .events {
+      height: 600px;
+      width: 100%;
+      background: grey; }
+    body #main-container .main-block {
+      display: flex;
+      min-height: 1200px;
+      width: 100%;
+      background: aqua; }
+      body #main-container .main-block .economics, body #main-container .main-block .news, body #main-container .main-block .materials {
+        min-height: 100%;
+        width: 33.33%;
+        background: red; }
+      body #main-container .main-block .news {
+        background: green; }
+      body #main-container .main-block .materials {
+        background: blue; }
+  body footer {
+    height: 300px;
+    width: 90vw;
+    left: 5vw; }
+
+/*# sourceMappingURL=style.css.map */
