@@ -1,31 +1,40 @@
 @media screen and (max-width: 1400px) {
+  /* line 10, D:/lafa_network/sass/style.scss */
   nav {
     font-size: 12px !important; } }
+
 @media screen and (max-width: 1200px) {
+  /* line 17, D:/lafa_network/sass/style.scss */
   nav {
     font-size: 10px !important; } }
+
 @media screen and (max-width: 1000px) {
+  /* line 24, D:/lafa_network/sass/style.scss */
   #header {
     height: 500px !important;
     flex-direction: column !important;
     justify-content: flex-start !important;
     align-items: stretch !important; }
+    /* line 31, D:/lafa_network/sass/style.scss */
     #header .govern, #header .title-head {
       width: 100% !important;
       flex-direction: row !important;
       justify-content: center !important;
       align-items: stretch !important; }
+    /* line 41, D:/lafa_network/sass/style.scss */
     #header .search {
       width: 100% !important;
       flex-direction: column !important; }
+      /* line 48, D:/lafa_network/sass/style.scss */
       #header .search form input {
         width: 250px !important; }
-
+  /* line 56, D:/lafa_network/sass/style.scss */
   nav {
     height: 120px !important;
     width: 100%;
     font-size: 14px !important;
     background: #1e6037; }
+    /* line 64, D:/lafa_network/sass/style.scss */
     nav .nav-inner {
       height: 10% !important;
       width: 90%;
@@ -34,29 +43,38 @@
       flex-wrap: wrap !important;
       justify-content: flex-start !important;
       align-items: center !important; }
-
+  /* line 77, D:/lafa_network/sass/style.scss */
   .events {
     margin-top: 100px !important;
     height: 1200px !important;
     flex-direction: column !important; }
+    /* line 83, D:/lafa_network/sass/style.scss */
     .events .events-pic {
       width: 80% !important; }
+    /* line 87, D:/lafa_network/sass/style.scss */
     .events .events-title {
       width: 80% !important; }
+    /* line 91, D:/lafa_network/sass/style.scss */
     .events .events-text {
       width: 80% !important; }
-
+  /* line 98, D:/lafa_network/sass/style.scss */
   .main-block .economics, .main-block .news, .main-block .materials {
     width: 90% !important;
     margin-left: 5% !important; }
+  /* line 103, D:/lafa_network/sass/style.scss */
   .main-block .materials {
     margin-bottom: 15px !important; } }
+
 @media screen and (max-width: 500px) {
+  /* line 114, D:/lafa_network/sass/style.scss */
   nav {
     height: 250px !important; } }
+
+/* line 120, D:/lafa_network/sass/style.scss */
 body {
   font-family: Helvetica, sans-serif;
   background: rgba(55, 55, 55, 0.5); }
+  /* line 126, D:/lafa_network/sass/style.scss */
   body #main-container {
     position: relative;
     display: flex;
@@ -68,45 +86,56 @@ body {
     min-height: 100vh;
     background: white;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); }
+    /* line 142, D:/lafa_network/sass/style.scss */
     body #main-container #header {
       display: flex;
       height: 150px;
       width: 100%; }
+      /* line 148, D:/lafa_network/sass/style.scss */
       body #main-container #header .govern {
         display: flex;
         width: 33.33%; }
+        /* line 153, D:/lafa_network/sass/style.scss */
         body #main-container #header .govern .corner-pic {
           height: 150px;
           width: 150px;
           background: url(../img/corner-pic.png) center center no-repeat; }
+        /* line 161, D:/lafa_network/sass/style.scss */
         body #main-container #header .govern .gov-line {
           height: 100px;
           width: 1px;
           background: rgba(0, 0, 0, 0.2);
           margin: 15px; }
+        /* line 171, D:/lafa_network/sass/style.scss */
         body #main-container #header .govern .gov-head {
           padding: 5px 0 0 5px;
           height: 100%;
           width: 200px;
           font-size: 16px; }
+          /* line 180, D:/lafa_network/sass/style.scss */
           body #main-container #header .govern .gov-head h1 {
             margin-top: 15px; }
+          /* line 184, D:/lafa_network/sass/style.scss */
           body #main-container #header .govern .gov-head h2 {
             font-weight: bold;
             margin-top: 5px; }
+      /* line 194, D:/lafa_network/sass/style.scss */
       body #main-container #header .title-head {
         width: 33.33%;
         text-align: center; }
+        /* line 199, D:/lafa_network/sass/style.scss */
         body #main-container #header .title-head h1 {
           margin-top: 35px;
           color: #176e3b;
           font-size: 55px;
           font-weight: bold;
           letter-spacing: 7px; }
+        /* line 209, D:/lafa_network/sass/style.scss */
         body #main-container #header .title-head h2 {
           margin-top: 10px;
           font-size: 15px;
           font-weight: 300; }
+      /* line 219, D:/lafa_network/sass/style.scss */
       body #main-container #header .search {
         width: 33.33%;
         height: 100%;
@@ -114,33 +143,43 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center; }
+        /* line 229, D:/lafa_network/sass/style.scss */
         body #main-container #header .search form {
           margin-top: 35px; }
+          /* line 232, D:/lafa_network/sass/style.scss */
           body #main-container #header .search form input {
             height: 45px;
             width: 300px; }
+        /* line 239, D:/lafa_network/sass/style.scss */
         body #main-container #header .search .exchange {
           display: flex;
           margin-top: 15px;
           font-weight: 400; }
+          /* line 245, D:/lafa_network/sass/style.scss */
           body #main-container #header .search .exchange h4 {
             font-size: 14px;
             margin-left: 12px; }
+          /* line 250, D:/lafa_network/sass/style.scss */
           body #main-container #header .search .exchange p {
             font-size: 14px; }
+          /* line 254, D:/lafa_network/sass/style.scss */
           body #main-container #header .search .exchange .search-1, body #main-container #header .search .exchange .search-2, body #main-container #header .search .exchange .search-3 {
             height: 15px;
             width: 15px;
             background: url(../img/search-1.png) center center no-repeat; }
+          /* line 261, D:/lafa_network/sass/style.scss */
           body #main-container #header .search .exchange .search-2 {
             background: url(../img/search-2.png) center center no-repeat; }
+          /* line 266, D:/lafa_network/sass/style.scss */
           body #main-container #header .search .exchange .search-3 {
             background: url(../img/search-3.png) center center no-repeat; }
+    /* line 278, D:/lafa_network/sass/style.scss */
     body #main-container nav {
       height: 40px;
       width: 100%;
       font-size: 16px;
       background: #1e6037; }
+      /* line 287, D:/lafa_network/sass/style.scss */
       body #main-container nav .nav-inner {
         height: 100%;
         width: 90%;
@@ -149,25 +188,31 @@ body {
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start; }
+        /* line 298, D:/lafa_network/sass/style.scss */
         body #main-container nav .nav-inner .nav-sec {
           color: white;
           font-weight: 600;
           padding: 11px; }
+          /* line 304, D:/lafa_network/sass/style.scss */
           body #main-container nav .nav-inner .nav-sec:hover {
             cursor: pointer;
             color: black;
             background: white; }
+          /* line 310, D:/lafa_network/sass/style.scss */
           body #main-container nav .nav-inner .nav-sec:active {
             color: black;
             background: white; }
+        /* line 317, D:/lafa_network/sass/style.scss */
         body #main-container nav .nav-inner .nav-logo {
           height: 40px;
           width: 37px;
           background: url(../img/nav-logo.png) center center no-repeat; }
+    /* line 330, D:/lafa_network/sass/style.scss */
     body #main-container .pattern {
       height: 10px;
       width: 100%;
       background: url(../img/pattern.png) repeat; }
+    /* line 341, D:/lafa_network/sass/style.scss */
     body #main-container .events-row {
       height: 60px;
       width: 100%;
@@ -176,11 +221,14 @@ body {
       flex-direction: row;
       justify-content: space-around;
       align-items: flex-end; }
+      /* line 353, D:/lafa_network/sass/style.scss */
       body #main-container .events-row h1 {
         font-size: 25px;
         font-weight: bold; }
+      /* line 358, D:/lafa_network/sass/style.scss */
       body #main-container .events-row span {
         font-weight: 600; }
+      /* line 362, D:/lafa_network/sass/style.scss */
       body #main-container .events-row .icons {
         display: flex;
         flex-direction: row;
@@ -188,21 +236,29 @@ body {
         align-items: flex-end;
         height: 100px;
         width: 160px; }
+        /* line 372, D:/lafa_network/sass/style.scss */
         body #main-container .events-row .icons .icon, body #main-container .events-row .icons .icon-rss, body #main-container .events-row .icons .icon-twr, body #main-container .events-row .icons .icon-fb, body #main-container .events-row .icons .icon-vk, body #main-container .events-row .icons .icon-ins {
           height: 30px;
           width: 30px; }
+          /* line 376, D:/lafa_network/sass/style.scss */
           body #main-container .events-row .icons .icon:hover, body #main-container .events-row .icons .icon-rss:hover, body #main-container .events-row .icons .icon-twr:hover, body #main-container .events-row .icons .icon-fb:hover, body #main-container .events-row .icons .icon-vk:hover, body #main-container .events-row .icons .icon-ins:hover {
             cursor: pointer; }
+        /* line 381, D:/lafa_network/sass/style.scss */
         body #main-container .events-row .icons .icon-rss {
           background: url(../img/icon-rss.png) center center no-repeat; }
+        /* line 386, D:/lafa_network/sass/style.scss */
         body #main-container .events-row .icons .icon-twr {
           background: url(../img/icon-twr.png) center center no-repeat; }
+        /* line 391, D:/lafa_network/sass/style.scss */
         body #main-container .events-row .icons .icon-fb {
           background: url(../img/icon-fb.png) center center no-repeat; }
+        /* line 396, D:/lafa_network/sass/style.scss */
         body #main-container .events-row .icons .icon-vk {
           background: url(../img/icon-vk.png) center center no-repeat; }
+        /* line 401, D:/lafa_network/sass/style.scss */
         body #main-container .events-row .icons .icon-ins {
           background: url(../img/icon-ins.png) center center no-repeat; }
+    /* line 412, D:/lafa_network/sass/style.scss */
     body #main-container .events {
       height: 400px;
       width: 100%;
@@ -212,15 +268,18 @@ body {
       flex-direction: row;
       justify-content: flex-start;
       align-items: flex-start; }
+      /* line 424, D:/lafa_network/sass/style.scss */
       body #main-container .events .events-pic {
         height: 400px;
         width: 40%;
         background: rgba(0, 0, 0, 0.8); }
+        /* line 431, D:/lafa_network/sass/style.scss */
         body #main-container .events .events-pic .events-img {
           width: 90%;
           height: 350px;
           margin: 25px;
           background: url(../img/events-img.png) center center no-repeat; }
+      /* line 444, D:/lafa_network/sass/style.scss */
       body #main-container .events .events-title {
         height: 400px;
         width: 20%;
@@ -231,6 +290,7 @@ body {
         align-items: flex-start;
         color: white;
         background: rgba(0, 0, 0, 0.8); }
+        /* line 457, D:/lafa_network/sass/style.scss */
         body #main-container .events .events-title .green-gov-padding {
           height: 40px;
           margin-bottom: 40px;
@@ -238,6 +298,7 @@ body {
           flex-direction: row;
           justify-content: flex-start;
           align-items: flex-end; }
+          /* line 466, D:/lafa_network/sass/style.scss */
           body #main-container .events .events-title .green-gov-padding .green-gov {
             height: 40px;
             background: #207141;
@@ -246,12 +307,15 @@ body {
             flex-direction: row;
             justify-content: flex-start;
             align-items: flex-end; }
+        /* line 479, D:/lafa_network/sass/style.scss */
         body #main-container .events .events-title h1 {
           font-size: 25px;
           font-weight: bold;
           margin-bottom: 40px; }
+        /* line 485, D:/lafa_network/sass/style.scss */
         body #main-container .events .events-title p {
           font-size: 20px; }
+      /* line 489, D:/lafa_network/sass/style.scss */
       body #main-container .events .events-text {
         height: 400px;
         width: 33%;
@@ -261,19 +325,24 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start; }
+        /* line 502, D:/lafa_network/sass/style.scss */
         body #main-container .events .events-text .event-text {
           padding-top: 15px;
           padding-left: 25px;
           padding-bottom: 15px; }
+          /* line 507, D:/lafa_network/sass/style.scss */
           body #main-container .events .events-text .event-text h3 {
             font-size: 16px;
             font-weight: 600; }
+          /* line 512, D:/lafa_network/sass/style.scss */
           body #main-container .events .events-text .event-text p {
             font-size: 16px; }
+        /* line 517, D:/lafa_network/sass/style.scss */
         body #main-container .events .events-text hr {
           width: 85%;
           color: rgba(205, 205, 205, 0.8);
           border-bottom: 1px dotted rgba(0, 0, 0, 0.5); }
+    /* line 527, D:/lafa_network/sass/style.scss */
     body #main-container .main-block {
       display: flex;
       flex-wrap: wrap;
@@ -282,24 +351,29 @@ body {
       align-items: flex-start;
       min-height: 1200px;
       width: 100%; }
+      /* line 537, D:/lafa_network/sass/style.scss */
       body #main-container .main-block .stat-block, body #main-container .main-block .economics, body #main-container .main-block .news, body #main-container .main-block .materials {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         min-height: 100%; }
+      /* line 546, D:/lafa_network/sass/style.scss */
       body #main-container .main-block .economics {
         width: 23.33%; }
+        /* line 550, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .economics .eco-line {
           margin-top: 10%;
           margin-left: 10%;
           width: 80%;
           height: 5px;
           background: black; }
+        /* line 560, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .economics .eco-title {
           margin-top: 10%;
           margin-left: 10%;
           font-weight: 700; }
+        /* line 567, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .economics .eco-img {
           margin-top: 10%;
           margin-left: 10%;
@@ -307,6 +381,7 @@ body {
           height: 150px;
           background: url(../img/eco-img.png) center center no-repeat;
           background-size: cover; }
+        /* line 578, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .economics .eco-stat {
           display: flex;
           flex-direction: row;
@@ -315,6 +390,7 @@ body {
           margin-top: 10%;
           margin-left: 10%;
           width: 80%; }
+          /* line 589, D:/lafa_network/sass/style.scss */
           body #main-container .main-block .economics .eco-stat .eco-stat-img {
             background: url(../img/eco-stat.png) center center no-repeat;
             background-size: 100%;
@@ -322,20 +398,25 @@ body {
             height: 15px;
             margin-left: 5px;
             margin-right: 5px; }
+        /* line 601, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .economics .eco-bold {
           font-weight: 700; }
+        /* line 605, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .economics .eco-title-text {
           margin-top: 1%;
           margin-left: 10%; }
+        /* line 612, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .economics .eco-dot-line {
           margin-top: 10%;
           margin-left: 10%;
           width: 80%;
           height: 1px;
           border-bottom: 1px dotted rgba(0, 0, 0, 0.5); }
+      /* line 625, D:/lafa_network/sass/style.scss */
       body #main-container .main-block .news {
         width: 46.33%;
         margin-bottom: 5%; }
+        /* line 630, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .news .news-title {
           width: 90%;
           margin: 5%;
@@ -343,45 +424,56 @@ body {
           flex-direction: row;
           justify-content: space-between;
           align-items: flex-start; }
+          /* line 639, D:/lafa_network/sass/style.scss */
           body #main-container .main-block .news .news-title h1 {
             font-weight: bold;
             font-size: 25px; }
+          /* line 644, D:/lafa_network/sass/style.scss */
           body #main-container .main-block .news .news-title .lenta {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
             width: 25%; }
+            /* line 653, D:/lafa_network/sass/style.scss */
             body #main-container .main-block .news .news-title .lenta p {
               font-size: 14px; }
+            /* line 657, D:/lafa_network/sass/style.scss */
             body #main-container .main-block .news .news-title .lenta .icon-lenta-active {
               width: 15px;
               height: 15px;
               background: url(../img/lenta-active.png) center center no-repeat;
               background-size: 100%; }
+              /* line 664, D:/lafa_network/sass/style.scss */
               body #main-container .main-block .news .news-title .lenta .icon-lenta-active:hover {
                 cursor: pointer; }
+            /* line 669, D:/lafa_network/sass/style.scss */
             body #main-container .main-block .news .news-title .lenta .icon-lenta-inactive {
               width: 15px;
               height: 15px;
               background: url(../img/lenta-inactive.png) center center no-repeat;
               background-size: 100%; }
+              /* line 676, D:/lafa_network/sass/style.scss */
               body #main-container .main-block .news .news-title .lenta .icon-lenta-inactive:hover {
                 cursor: pointer; }
+        /* line 686, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .news .news-img, body #main-container .main-block .news .news-img-2 {
           width: 90%;
           height: 400px;
           background: url(../img/news-img.png) center center no-repeat;
           background-size: 100%; }
+        /* line 694, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .news .news-img-2 {
           background: url(../img/news-img-2.png) center center no-repeat;
           background-size: 100%; }
+        /* line 700, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .news .news-stat {
           display: flex;
           flex-direction: row;
           justify-content: flex-start;
           align-items: flex-start;
           width: 80%; }
+          /* line 708, D:/lafa_network/sass/style.scss */
           body #main-container .main-block .news .news-stat .news-stat-gov {
             background: url(../img/eco-gov.png) center center no-repeat;
             background-size: 100%;
@@ -389,6 +481,7 @@ body {
             height: 15px;
             margin-left: 5px;
             margin-right: 5px; }
+          /* line 719, D:/lafa_network/sass/style.scss */
           body #main-container .main-block .news .news-stat .news-stat-img {
             background: url(../img/eco-stat.png) center center no-repeat;
             background-size: 100%;
@@ -396,12 +489,15 @@ body {
             height: 15px;
             margin-left: 5px;
             margin-right: 5px; }
+        /* line 732, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .news .news-title-tesla {
           font-size: 50px;
           margin-top: 2%;
           font-weight: 700; }
+        /* line 738, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .news .news-title-text {
           margin-top: 3%; }
+      /* line 745, D:/lafa_network/sass/style.scss */
       body #main-container .main-block .materials {
         display: flex;
         flex-direction: column;
@@ -410,14 +506,17 @@ body {
         margin-top: 8%;
         width: 29.33%;
         border: 1px solid rgba(15, 15, 15, 0.5); }
+        /* line 758, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .materials .materials-title {
           margin-top: -12px;
           margin-left: 10px;
           width: 220px;
           text-align: center; }
+          /* line 766, D:/lafa_network/sass/style.scss */
           body #main-container .main-block .materials .materials-title h3 {
             font-weight: 600;
             background-color: white; }
+        /* line 773, D:/lafa_network/sass/style.scss */
         body #main-container .main-block .materials .material {
           display: flex;
           flex-direction: row;
@@ -425,11 +524,13 @@ body {
           align-items: flex-start;
           padding: 5%;
           width: 80%; }
+          /* line 783, D:/lafa_network/sass/style.scss */
           body #main-container .main-block .materials .material .material-img {
             width: 50%;
             height: 100px;
             background: url(../img/news-img-2.png) center center no-repeat;
             background-size: 100%; }
+          /* line 793, D:/lafa_network/sass/style.scss */
           body #main-container .main-block .materials .material .material-text {
             display: flex;
             flex-direction: column;
@@ -438,12 +539,14 @@ body {
             margin-left: 10px;
             margin-bottom: 10px;
             width: 50%; }
+            /* line 803, D:/lafa_network/sass/style.scss */
             body #main-container .main-block .materials .material .material-text .material-stat {
               display: flex;
               flex-direction: row;
               justify-content: flex-start;
               align-items: flex-start;
               width: 80%; }
+              /* line 812, D:/lafa_network/sass/style.scss */
               body #main-container .main-block .materials .material .material-text .material-stat .material-stat-img {
                 background: url(../img/eco-stat.png) center center no-repeat;
                 background-size: 100%;
@@ -451,8 +554,10 @@ body {
                 height: 15px;
                 margin-left: 5px;
                 margin-right: 5px; }
+            /* line 824, D:/lafa_network/sass/style.scss */
             body #main-container .main-block .materials .material .material-text .material-context {
               margin-top: 15px; }
+  /* line 833, D:/lafa_network/sass/style.scss */
   body #footer {
     position: relative;
     display: flex;
@@ -465,20 +570,24 @@ body {
     left: 5vw;
     background: rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5); }
+    /* line 849, D:/lafa_network/sass/style.scss */
     body #footer .foot {
       margin-top: 30px;
       margin-left: 30px; }
+      /* line 853, D:/lafa_network/sass/style.scss */
       body #footer .foot .footer-title-line {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start; }
+        /* line 861, D:/lafa_network/sass/style.scss */
         body #footer .foot .footer-title-line .footer-title {
           font-size: 35px;
           font-weight: 700;
           letter-spacing: 5px;
           color: white; }
+        /* line 868, D:/lafa_network/sass/style.scss */
         body #footer .foot .footer-title-line .footer-tex {
           height: 35px;
           display: flex;
@@ -488,34 +597,41 @@ body {
           align-items: flex-start;
           font-size: 9px;
           color: white; }
+      /* line 880, D:/lafa_network/sass/style.scss */
       body #footer .foot .footer-nav-line {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start; }
+        /* line 887, D:/lafa_network/sass/style.scss */
         body #footer .foot .footer-nav-line .nav-sec {
           color: white;
           font-size: 10px;
           margin-top: 15px;
           margin-right: 10px; }
+          /* line 893, D:/lafa_network/sass/style.scss */
           body #footer .foot .footer-nav-line .nav-sec:hover {
             cursor: pointer;
             color: rgba(255, 255, 255, 0.5); }
+      /* line 900, D:/lafa_network/sass/style.scss */
       body #footer .foot .footer-navi-line {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start; }
+        /* line 907, D:/lafa_network/sass/style.scss */
         body #footer .foot .footer-navi-line .nav-sec {
           color: #9b9b9b;
           font-size: 10px;
           margin-top: 15px;
           margin-right: 10px; }
+          /* line 913, D:/lafa_network/sass/style.scss */
           body #footer .foot .footer-navi-line .nav-sec:hover {
             cursor: pointer;
             color: rgba(255, 255, 255, 0.8); }
+      /* line 920, D:/lafa_network/sass/style.scss */
       body #footer .foot .footer-text {
         margin-top: 35px;
         width: 60%;
